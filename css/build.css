@@ -1077,6 +1077,174 @@ img[data-v-3baa7362] {
   border: 5px solid #fff;
 }
 
+.textOverFlow[data-v-41416cfc] {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+.body[data-v-41416cfc] {
+  background-color: #f3f1ef;
+}
+.body .cover[data-v-41416cfc] {
+  width: 100%;
+  height: 120px;
+}
+.body .shopInfo[data-v-41416cfc] {
+  width: 90%;
+  margin: 0 auto;
+  height: 80px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  position: absolute;
+  top: 100px;
+  -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+}
+.body .shopInfo .shopTop[data-v-41416cfc] {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.body .shopInfo .shopTop .shopIcon[data-v-41416cfc] {
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 5px;
+}
+.body .shopInfo .shopTop .shopTitle[data-v-41416cfc] {
+  font-size: 17px;
+  font-weight: bold;
+  overflow: hidden;
+  width: 100%;
+}
+.body .shopInfo .shopTop .shopTitle div[data-v-41416cfc] {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+.body .shopInfo .shopTop .shopTitle .shopRanking[data-v-41416cfc] {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 11px;
+  font-weight: normal;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.body .shopInfo .shopTop .shopTitle .shopRanking div[data-v-41416cfc] {
+  width: 50%;
+  text-align: center;
+}
+.body .shopInfo .shopDesc[data-v-41416cfc] {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  font-size: 10px;
+  margin-top: 8px;
+  color: #95a5a6;
+}
+.body .el-tabs--top[data-v-41416cfc] {
+  margin-top: 60px;
+}
+.body .el-tabs__header[data-v-41416cfc] {
+  margin-bottom: 0 !important;
+}
+.body .orderMenu[data-v-41416cfc] {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #f3f1ef;
+}
+.body .orderMenu .sort[data-v-41416cfc] {
+  width: 20%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
+  font-size: 12px;
+}
+.body .orderMenu .sort div[data-v-41416cfc] {
+  background-color: #f3f1ef;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #6c7a89;
+}
+.body .orderMenu .sort .active[data-v-41416cfc] {
+  background-color: #fff;
+  color: #000;
+}
+.body .orderMenu .foods[data-v-41416cfc] {
+  width: 80%;
+  background-color: #fff;
+}
+.body .orderMenu .foods .classification[data-v-41416cfc] {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 15px;
+}
+.body .orderMenu .foods .classification .foodsTitle[data-v-41416cfc] {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 0;
+  position: -webkit-sticky;
+  position: sticky;
+  height: 40px;
+  top: 80px;
+  background-color: #fff;
+  font-size: 13px;
+}
+.body .orderMenu .foods .classification .food div[data-v-41416cfc] {
+  height: 100px;
+  width: 100%;
+  background-color: #ccc;
+  margin-bottom: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1115,6 +1283,27 @@ p:focus,
 div:focus {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   outline: none;
+}
+img {
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}
+.mint-header {
+  background-color: #fabe58 !important;
+}
+.el-tabs__header {
+  background-color: #fff !important;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 10px !important;
+  margin-bottom: 0 !important;
+}
+.el-tabs__content {
+  overflow: inherit !important;
+}
+.shopTab .el-tabs__header {
+  top: 40px !important;
 }
 
 /* Cell Component */
